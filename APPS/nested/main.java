@@ -80,34 +80,45 @@
 /**
  * main
  */
+// public class main {
+
+//     // Function to perform linear search
+//     public static int linearSearch(int[] arr, int target) {
+//         // Traverse through all elements of the array
+//         for (int i = 0; i < arr.length; i++) {
+//             // If the current element equals the target, return its index
+//             if (arr[i] == target) {
+//                 return i;
+//             }
+//         }
+//         // If the target is not found, return -1
+//         return -1;
+//     }
+
+//     public static void main(String[] args) {
+//         int[] arr = { 2, 5, 7, 1, 9, 3, 6 };
+//         int target = 7;
+
+//         // Perform linear search
+//         int index = linearSearch(arr, target);
+
+//         // Check if the target element was found
+//         if (index != -1) {
+//             System.out.println("Element " + target + " found at index " + index);
+//         } else {
+//             System.out.println("Element " + target + " not found in the array");
+//         }
+//     }
+// }
+
+
 public class main {
 
-    // Function to perform linear search
-    public static int linearSearch(int[] arr, int target) {
-        // Traverse through all elements of the array
-        for (int i = 0; i < arr.length; i++) {
-            // If the current element equals the target, return its index
-            if (arr[i] == target) {
-                return i;
-            }
-        }
-        // If the target is not found, return -1
-        return -1;
-    }
-
     public static void main(String[] args) {
-        int[] arr = { 2, 5, 7, 1, 9, 3, 6 };
-        int target = 7;
-
-        // Perform linear search
-        int index = linearSearch(arr, target);
-
-        // Check if the target element was found
-        if (index != -1) {
-            System.out.println("Element " + target + " found at index " + index);
-        } else {
-            System.out.println("Element " + target + " not found in the array");
-        }
+        String arrey[] = {"Math", "Science", "division"};
+        System.out.print(arrey[0]);
+        System.out.println(arrey[1]);
+        System.out.println(arrey[2]);
+    
     }
 }
-
