@@ -52,17 +52,18 @@
 // }
 
 
-import java.util.*;
+// import java.util.*;
 
-public class main{
-    public static void main(String args[]){
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Plese Enter a Number");
-        int input = scanner.nextInt();
-        int x = 15;
-        for (int i =1; i<=x; i++){
-            if (i==11) continue;
-            System.out.println(input+"*"+ i + "=" +input*i);
-        }
-    }
-}
+// public class main{
+//     public static void main(String args[]){
+//         Scanner scanner = new Scanner(System.in);
+//         System.out.println("Plese Enter a Number");
+//         int input = scanner.nextInt();
+//         int x = 15;
+//         for (int i =1; i<=x; i++){
+//             if (i==11) continue;
+//             System.out.println(input+"*"+ i + "=" +input*i);
+//         }
+//     }
+// }
+
