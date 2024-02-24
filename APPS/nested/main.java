@@ -111,14 +111,11 @@
 //     }
 // }
 
-
-public class main {
+public class Main {
 
     public static void main(String[] args) {
-        String arrey[] = {"Math", "Science", "division"};
-        System.out.print(arrey[0]);
-        System.out.println(arrey[1]);
-        System.out.println(arrey[2]);
     
+        System.out.println();
+        
     }
 }

@@ -67,3 +67,27 @@
 //     }
 // }
 
+// import java.util.Scanner;
+
+// public class main {
+
+//     public static void main(String [] args){
+//         Scanner scanner = new Scanner(System.in);
+//         int x[]= {23,234,23422,23123,23654};
+//         for(int i = 1; i<=x.length ; i++){
+//             System.out.println(x[i-1]);
+//         }
+//     }
+// 
+// import java.util.Scanner;
+// public class main{
+//     public static void main(String [] args){
+//         Scanner scanner = new Scanner(System.in);
+//         System.out.println("Plese number that you want to print the hello world.");
+//         int num = scanner.nextInt();
+    
+//         for (int i =0; i<num ; i++) System.out.println("hello world");
+//         scanner.close();
+//     }
+// }
+
