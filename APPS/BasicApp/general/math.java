@@ -1,7 +1,8 @@
 package BasicApp.general;
 import java.util.Scanner;
 
-public class  math {
+
+public class  Math {
     static Scanner scanner = new Scanner(System.in);
     public static void add(){;
         System.out.println("Enter the first number:");
@@ -35,7 +36,7 @@ public class  math {
         System.out.println("Your result is : "+(number1/number2));
         scanner.close();
     }
-    public static void math() {
+    public static void value() {
         System.out.println("Enter two numbers:");
         System.out.println("1: add");
         System.out.println("2: subtract");
